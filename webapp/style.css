@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column; /* Empiler les éléments les uns au-dessus des autres */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Utiliser toute la hauteur de la fenêtre */
+    margin: 0; /* Supprimer les marges par défaut du body */
+}
+
+h1 {
+    /* Styles pour le titre */
+    margin-bottom: 20px; /* Marge en dessous du titre */
+}
+
+.counter-display {
+    font-size: 60px; /* Taille de police plus grande */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 20px;
+}
+
+
+.button-container {
+    /* Styles pour le conteneur des boutons */
+    display: flex; /* Utiliser Flexbox */
+    flex-direction: row; /* Aligner les boutons horizontalement */
+    align-items: center; /* Centrer verticalement les boutons */
+}
+
+button {
+    /* Styles de bouton */
+    background-color: #4CAF50; /* Vert */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    margin: 0 5px; /* Marge entre les boutons */
+}
+
+button:hover {
+    background-color: #45a049; /* Vert plus foncé au survol */
+}
+
+
